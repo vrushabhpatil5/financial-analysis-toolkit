@@ -17,6 +17,7 @@ decision-making, focusing on clarity, structure, and practical usability.
 ---
 
 ## Project Structure
+((( 
 financial-analysis-toolkit/
 │
 ├── npv_irr_calculator.py
@@ -36,7 +37,7 @@ financial-analysis-toolkit/
 │
 ├── requirements.txt
 └── README.md
-
+)))
 ---
 
 ## How to Run
@@ -44,9 +45,16 @@ financial-analysis-toolkit/
 ### 1) Install dependencies
 ```bash
 pip install -r requirements.txt
+````
+
 ### 2) Run the toolkit menu
+```bash
 python main.py
-Or run individual modules
+````
+
+### 3) Or run individual modules
+```bash
 python npv_irr_calculator.py
 python ratio_analysis.py
 python dcf_sensitivity_wacc_growth.py
+````
