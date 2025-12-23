@@ -27,3 +27,10 @@ python dcf_sensitivity_wacc_growth.py
 
 ### Run the toolkit menu
 python main.py
+
+## What This Project Demonstrates
+- Practical application of core financial analysis concepts
+- Clean, modular Python code structure
+- Sensitivity analysis for valuation decision-making
+- Handling of real-world library changes in Python
+
