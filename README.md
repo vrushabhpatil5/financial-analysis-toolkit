@@ -24,3 +24,6 @@ python ratio_analysis.py
 
 ### Run DCF Sensitivity (WACC × Growth)
 python dcf_sensitivity_wacc_growth.py
+
+### Run the toolkit menu
+python main.py
