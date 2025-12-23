@@ -9,4 +9,5 @@ decision-making using clear and transparent models.
 ## Modules
 - NPV & IRR Calculator (Python + CSV)
 - Ratio Analysis (profitability, liquidity, leverage)
+- DCF Sensitivity (WACC × Terminal Growth) with CSV output for Excel
 
