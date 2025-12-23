@@ -34,3 +34,9 @@ python main.py
 - Sensitivity analysis for valuation decision-making
 - Handling of real-world library changes in Python
 
+## How This Toolkit Can Be Used
+- Investment appraisal and capital budgeting decisions
+- Valuation sensitivity analysis for WACC and terminal growth
+- Quick financial health assessment using ratios
+- Excel-friendly outputs for management reporting
+
