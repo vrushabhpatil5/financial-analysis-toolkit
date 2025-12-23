@@ -11,3 +11,16 @@ decision-making using clear and transparent models.
 - Ratio Analysis (profitability, liquidity, leverage)
 - DCF Sensitivity (WACC × Terminal Growth) with CSV output for Excel
 
+## How to Run
+
+### Install dependencies
+pip install -r requirements.txt
+
+### Run NPV & IRR calculator
+python npv_irr_calculator.py
+
+### Run Ratio Analysis
+python ratio_analysis.py
+
+### Run DCF Sensitivity (WACC × Growth)
+python dcf_sensitivity_wacc_growth.py
