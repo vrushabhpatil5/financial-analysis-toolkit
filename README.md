@@ -1,42 +1,52 @@
 # Financial Analysis Toolkit
 
-A practical toolkit applying core financial analysis concepts such as NPV,
-IRR, payback period, and ratio analysis.
+A Python-based toolkit applying core financial analysis and valuation concepts
+using clean, data-driven models and Excel-friendly outputs.
 
-This project focuses on bridging financial theory with real-world
-decision-making using clear and transparent models.
+This project bridges traditional finance theory with real-world
+decision-making, focusing on clarity, structure, and practical usability.
+
+---
 
 ## Modules
-- NPV & IRR Calculator (Python + CSV)
-- Ratio Analysis (profitability, liquidity, leverage)
-- DCF Sensitivity (WACC × Terminal Growth) with CSV output for Excel
+- **NPV & IRR Calculator** (Python + CSV inputs, CSV outputs)
+- **Ratio Analysis** (profitability, liquidity, leverage)
+- **DCF Sensitivity Analysis** (WACC × Terminal Growth)
+- **NPV vs WACC Sensitivity Chart** (visual valuation insight)
+
+---
+
+## Project Structure
+financial-analysis-toolkit/
+│
+├── npv_irr_calculator.py
+├── ratio_analysis.py
+├── dcf_sensitivity_wacc_growth.py
+├── main.py
+│
+├── sample_cashflows.csv
+├── sample_financials.csv
+├── forecast_cashflows.csv
+│
+├── outputs/
+│ ├── npv_irr_results.csv
+│ ├── ratio_analysis_results.csv
+│ ├── dcf_sensitivity_wacc_growth_output.csv
+│ └── npv_vs_wacc.png
+│
+├── requirements.txt
+└── README.md
+
+---
 
 ## How to Run
 
-### Install dependencies
+### 1) Install dependencies
+```bash
 pip install -r requirements.txt
-
-### Run NPV & IRR calculator
-python npv_irr_calculator.py
-
-### Run Ratio Analysis
-python ratio_analysis.py
-
-### Run DCF Sensitivity (WACC × Growth)
-python dcf_sensitivity_wacc_growth.py
-
-### Run the toolkit menu
+### 2) Run the toolkit menu
 python main.py
-
-## What This Project Demonstrates
-- Practical application of core financial analysis concepts
-- Clean, modular Python code structure
-- Sensitivity analysis for valuation decision-making
-- Handling of real-world library changes in Python
-
-## How This Toolkit Can Be Used
-- Investment appraisal and capital budgeting decisions
-- Valuation sensitivity analysis for WACC and terminal growth
-- Quick financial health assessment using ratios
-- Excel-friendly outputs for management reporting
-
+Or run individual modules
+python npv_irr_calculator.py
+python ratio_analysis.py
+python dcf_sensitivity_wacc_growth.py
