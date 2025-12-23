@@ -17,28 +17,27 @@ decision-making, focusing on clarity, structure, and practical usability.
 ---
 
 ## Project Structure
-((( 
+
+```
 financial-analysis-toolkit/
-│
 ├── npv_irr_calculator.py
 ├── ratio_analysis.py
 ├── dcf_sensitivity_wacc_growth.py
 ├── main.py
-│
+
 ├── sample_cashflows.csv
 ├── sample_financials.csv
 ├── forecast_cashflows.csv
-│
+
 ├── outputs/
-│ ├── npv_irr_results.csv
-│ ├── ratio_analysis_results.csv
-│ ├── dcf_sensitivity_wacc_growth_output.csv
-│ └── npv_vs_wacc.png
-│
+│   ├── npv_irr_results.csv
+│   ├── ratio_analysis_results.csv
+│   ├── dcf_sensitivity_wacc_growth_output.csv
+│   └── npv_vs_wacc.png
+
 ├── requirements.txt
 └── README.md
-)))
----
+```
 
 ## How to Run
 
